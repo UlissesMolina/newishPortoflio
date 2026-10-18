@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 28px calc(env(safe-area-inset-bottom, 0px) + 36px);
+  font: 500 13px/1.5 var(--font);
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.footer a {
+  color: #fff;
+}

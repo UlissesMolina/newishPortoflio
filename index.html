@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ulisses Molina-Becerra</title>
+    <meta
+      name="description"
+      content="Ulisses Molina-Becerra, software engineering student at Auburn University. Backend performance, release engineering, and ML projects."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Apple devices render SF Pro from the system stack; Inter stands in elsewhere. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <meta name="theme-color" content="#1b2133" />
+    <!-- Start fetching the backdrop for the active colour scheme before JS runs. -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      imagesrcset="/images/dawn-1280.webp 1280w, /images/dawn-2000.webp 2000w, /images/dawn-2800.webp 2800w"
+      imagesizes="100vw"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      imagesrcset="/images/night-1280.webp 1280w, /images/night-2000.webp 2000w, /images/night-2800.webp 2800w"
+      imagesizes="100vw"
+      media="(prefers-color-scheme: dark)"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
